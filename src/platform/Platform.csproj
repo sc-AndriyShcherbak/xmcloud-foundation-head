@@ -57,12 +57,18 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.ContentSearch.SolrProvider">
+      <Version>10.3.1</Version>
+    </PackageReference>
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
     <PackageReference Include="Sitecore.XmCloud.LayoutService" />
     <PackageReference Include="Sitecore.XmCloud.Assemblies" />
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
+    <PackageReference Include="SolrNet">
+      <Version>1.1.1</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Platform.wpp.targets" />
@@ -72,6 +78,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Config\Include\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomPopulateHelper.cs" />
+    <Compile Include="CustomPopulateHelperFactory.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
