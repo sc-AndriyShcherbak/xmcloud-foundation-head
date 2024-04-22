@@ -15,5 +15,7 @@
     <PackageReference Update="Sitecore.XmCloud.LayoutService" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.XmCloud.Assemblies" Version="$(PlatformVersion)" />
     <PackageReference Update="Sitecore.Assemblies.SitecoreHeadlessServicesServer" Version="19.*" />
+    <PackageReference Update="Sitecore.ContentSearch.SolrProvider" Version="$(PlatformVersion)" />
+    <PackageReference Update="SolrNet" Version="1.1.1" />
   </ItemGroup>
 </Project>
