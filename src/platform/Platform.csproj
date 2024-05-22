@@ -58,9 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Sitecore.ContentSearch.SolrProvider" />
-    <PackageReference Include="Sitecore.XmCloud.Common">
-      <Version>1.5.278</Version>
-    </PackageReference>
+    <PackageReference Include="Sitecore.XmCloud.Common"/>
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
