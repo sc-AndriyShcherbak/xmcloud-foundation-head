@@ -58,6 +58,9 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Sitecore.ContentSearch.SolrProvider" />
+    <PackageReference Include="Sitecore.XmCloud.Common">
+      <Version>1.5.278</Version>
+    </PackageReference>
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
@@ -68,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\z.GraphQLServices.config" />
+    <Content Include="App_Config\Include\zzz\ReplaceRegistrationService.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
@@ -76,6 +80,7 @@
   <ItemGroup>
     <Compile Include="CustomPopulateHelper.cs" />
     <Compile Include="CustomPopulateHelperFactory.cs" />
+    <Compile Include="SiteRegistrationService.cs" />
     <Compile Include="XmCloudnov.Extensions.NOVItemUrlBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
