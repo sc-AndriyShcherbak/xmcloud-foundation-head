@@ -58,7 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Sitecore.ContentSearch.SolrProvider" />
-    <PackageReference Include="Sitecore.XmCloud.Common"/>
+    <PackageReference Include="Sitecore.XmCloud.Common" />
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
@@ -68,21 +68,11 @@
     <PackageReference Include="SolrNet" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\z.GraphQLServices.config" />
-    <Content Include="App_Config\Include\zzz\ReplaceRegistrationService.config" />
+    <Content Include="App_Config\Include\zzz\Project.Efteling.Links.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
     <None Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="CustomPopulateHelper.cs" />
-    <Compile Include="CustomPopulateHelperFactory.cs" />
-    <Compile Include="SiteRegistrationService.cs" />
-    <Compile Include="XmCloudnov.Extensions.NOVItemUrlBuilder.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App_Config\Include\zzz\AddLang.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
