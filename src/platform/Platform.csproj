@@ -69,6 +69,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Project.Efteling.Links.config" />
+    <Content Include="App_Config\Include\zzz\DeleteCustomExternalBuilders.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
